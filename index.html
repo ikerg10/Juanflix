@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho do Vscode</title>
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9461c9;
+        }
+
+
+        .navbar {
+            background-color: #4a245e;
+            overflow: hidden;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .navbar img {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+
+        .navbar a {
+            color: #c4a6de;
+            text-align: center;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            font-family: "Playpen Sans", cursive;
+        }
+
+        .navbar a:hover {
+            background-color: #c4a6de;
+            color: #4a245e;
+            transform: scale(1.1);
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+            transition: opacity 0.5s;
+        }
+
+        .active {
+            display: block;
+            opacity: 1;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .navbar .menu-toggle {
+            display: none;
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Playpen Sans', cursive;
+        }
+
+    </style>
+    <div class="navbar">
+        <div class="menu">
+            <a href="#">Poor Man's Poison</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="home" class="content active">
+            <p class="title">Top 10 maiores sucessos do Poor Man's Poison</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8RMdWCz8P-Q?si=sAMmFBekx7FIATiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
